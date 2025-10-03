@@ -1,0 +1,23 @@
+{
+  "name": "mawaqit/prayer-times",
+  "type": "library",
+  "description": "Precise and Powerful PHP Prayer Times Library. It's fork from islamic-network/prayer-times",
+  "license": "GPL-3.0-or-later",
+  "autoload": {
+    "psr-4": {
+      "Mawaqit\\PrayerTimes\\": "src/PrayerTimes/"
+    }
+  },
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/mawaqit/prayer-times-moonsighting"
+    }
+  ],
+  "require": {
+    "mawaqit/prayer-times-moonsighting": "^1.0"
+  },
+  "require-dev": {
+      "phpunit/phpunit": "^9.2"
+    }
+}
